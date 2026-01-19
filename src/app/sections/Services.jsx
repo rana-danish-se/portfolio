@@ -216,16 +216,6 @@ const ServicesSection = () => {
                     {service.shortDesc}
                   </p>
 
-                  {/* Stats */}
-                  <div className="flex items-center justify-between text-xs">
-                    <span className="text-teal-400 font-semibold">
-                      {service.stats.projects} Projects
-                    </span>
-                    <span className="text-emerald-400 font-semibold">
-                      {service.stats.satisfaction} Happy
-                    </span>
-                  </div>
-
                   {/* View More Indicator */}
                   <motion.div
                     className="absolute bottom-4 right-4 text-teal-400 opacity-0 group-hover:opacity-100"
