@@ -36,6 +36,22 @@ const projects = [
     link: "/projects/talentro",
     color: "#333333",
   },
+  {
+    id: 4,
+    title: "Naqvix",
+    description: "HR & Recruitment solution",
+    image: "/assets/projects/naqvix.png",
+    link: "/projects/talentro",
+    color: "#333333",
+  },
+  {
+    id: 4,
+    title: "Forever",
+    description: "E-commerce Website",
+    image: "/assets/projects/forever.png",
+    link: "/projects/talentro",
+    color: "#333333",
+  },
 ];
 
 const Work = () => {
